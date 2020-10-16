@@ -1,46 +1,37 @@
 body{
 	font-family: Helvetica;
-}
+ 	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 2;
+ }
 .norway{
-	padding-right:100px;
-	padding-left: 100px;
+
 	background-color: #e83427  ;
 	color: #02005c;
-	line-height: 2;
 	font-size: 18px;
 }
 .denmark{
-	padding-right:100px;
-	padding-left: 100px;
+
 	background-color: #8f1d18;
 	color: white;
-	line-height: 2;
 	font-size: 18px;
 }
 
 .sweden{
-	padding-right:100px;
-	padding-left: 100px;
+
 	background-color: #32409c;
 	color: #ebe83f;
-	line-height: 2;
 	font-size: 18px;
 }
 
 .iceland{
-	padding-right:100px;
-	padding-left: 100px;
 	background-color: #737ef5;
 	color: #b30000;
-	line-height: 2;
 	font-size: 18px;
 }
 .finland{
-	padding-right:100px;
-	padding-left: 100px;
 	background-color: white;
 	color:  #02005c;
-	line-height: 2;
 	font-size: 18px;
 }
 
@@ -76,10 +67,6 @@ display: block;
 	font-size: 40px;
 }
 
- body{
- 	padding-left:100px; 
- 	padding-right: 100px;
- }
 
 
 .dkmeny:hover, .nomeny:hover, .ismeny:hover, .semeny:hover, .fimeny:hover{
@@ -142,11 +129,17 @@ a.bwlink:hover{
 
  @media only screen and (max-width: 909px) {
 
+ 	body{
+ 		padding-left: 20px;
+ 		padding-right: 20px;
+ 	}
+
 
 
   	.norway, .denmark, .sweden, .iceland, .finland{
 	text-align: left;
-	font-size: 16px;
+	font-size: 17px;
+	padding: none;
 }
 
 h1.norway, h1.denmark, h1.finland, h1.sweden, h1.iceland{
@@ -167,8 +160,10 @@ display: none;
 
  .dropbutton {
  	background-color: transparent;
+ 	font-weight: bold;
   color: currentColor;
-  padding: 16px;
+  padding: 5px;
+  padding-bottom: 10px; 
   font-size: 16px;
   border: none;
 }
@@ -181,7 +176,7 @@ display: none;
 .dropmenulink {
   display: none;
   position: absolute;
-  min-width: 100px;
+  min-width: 140px;
   box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.3);
 }
 
@@ -201,14 +196,19 @@ color: black;}
 /* inspirasjon til dropdown-menyen hentet fra https://www.w3schools.com/howto/howto_css_dropdown.asp*/
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
 	p{
 		font-size: 17px;
 	}
 	body{
-		padding: 0px;
-		margin: 0px;
+		padding: 4px;
+
 	}
+
+	h1{
+		padding: 2px;
+	}
+
 
 	
 }
@@ -226,10 +226,11 @@ color: black;}
 
 @media only screen and (min-width: 1200px){
 	p{
-		padding-left: 200px;
-		padding-right: 200px;
+		padding-left: 110px;
+		padding-right: 110px;
 	}
 }
 
 
+  	
   	
